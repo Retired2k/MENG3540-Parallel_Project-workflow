@@ -22,3 +22,18 @@ This project presents a CUDA-based real-time image processing workflow on an NVI
 - OpenCV
 - C++
 - GitHub
+
+## Objective
+The objective of this project is to demonstrate a CUDA-based real-time image processing workflow for estimating urban green cover on a Jetson platform using reduction and optimization techniques.
+
+## Code Versions
+The repository includes three CUDA implementations:
+- `droneskyview.cu` – baseline version
+- `droneskyview2.cu` – divergence-optimized version
+- `droneskyview3.cu` – global-memory-optimized version
+
+## Repository Structure
+- `README.md` – project overview
+- `Workflow.md` – workflow document
+- `code/` – CUDA source files
+- `images/` – screenshots, diagrams, and output images
