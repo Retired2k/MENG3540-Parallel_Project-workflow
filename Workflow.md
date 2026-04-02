@@ -20,3 +20,13 @@ USB Camera / Live Webcam
    Total Green Intensity Value
           ↓
  Display Output + Performance Check
+
+## Code Files
+
+The main code files used in this project are:
+
+- `droneskyview.cu` – baseline version without optimization
+- `droneskyview2.cu` – version with divergence minimization optimization
+- `droneskyview3.cu` – version with minimized global memory access optimization
+
+These files show the progression from the basic CUDA implementation to the optimized versions used for performance improvement.
